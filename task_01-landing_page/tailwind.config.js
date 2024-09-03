@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "barlow": ["Barlow", "sans-serif"],
+        "barlow-semi-condensed": ["Barlow Semi Condensed", "sans-serif"],
+        "barlow-condensed": ["Barlow Condensed", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
