@@ -31,16 +31,6 @@ const Calculator = () => {
           className={`fixed top-8 right-8 font-barlow-condensed transition-all duration-300 ease-in-out z-50`}
         >
           <CalcHistory />
-          <div className="form-control w-64 absolute right-0 top-20">
-            <label className="label cursor-pointer">
-              <input
-                type="checkbox"
-                className="toggle toggle-accent"
-                checked={isKeydownEnabled}
-                onChange={toggleKeyDown}
-              />
-            </label>
-          </div>
         </div>
         <CalcFrame>
           <CalcDisplay input={input} handleKeyDown={handleKeyDown} isKeydownEnabled={isKeydownEnabled}/>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {MdOutlineArrowBack} from "react-icons/md";
 
 const CalcButtons = ({handleClick,clear,calculate}) => {
 	const btn_styles = `btn text-3xl btn-primary rounded-xl px-6 min-h-16 shadow-inner shadow-accent`;
