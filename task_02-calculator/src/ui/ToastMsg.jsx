@@ -15,7 +15,7 @@ const ToastMsg = ({ toastMsg, setToastMsg }) => {
             <div className={`alert text-white  text-2xl uppercase px-6 py-6 ${msg.alert_style}`} role="alert">
               {msg.message}
               <button
-                className="btn bg-slate-200 text-neutral  float-right  rounded-full "
+                className="btn bg-slate-200 text-neutral hover:text-white border-none hover:bg-opacity-50 hover:bg-gray-900 float-right  rounded-full "
                 aria-label="Close"
                 onClick={() => setToastMsg([])}
               ><CgClose/></button>

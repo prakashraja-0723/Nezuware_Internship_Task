@@ -4,9 +4,9 @@ const CalcTitle = () => {
   return (
     <>
       <h1
-        className={`text-3xl text-neutral-content text-center uppercase tracking-wider bg-primary px-6 py-4 rounded-xl shadow-inner shadow-secondary mb-8`}
+        className={`text-3xl font-bold text-neutral-content text-center uppercase tracking-wider bg-primary px-6 py-4 rounded-xl shadow-inner shadow-secondary mb-8`}
       >
-        Simple Arithmetic Calculator
+        Simple Calculator
       </h1>
     </>
   );

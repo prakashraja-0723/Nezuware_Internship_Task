@@ -15,7 +15,7 @@ const CalcDisplay = ({ input, handleKeyDown, isKeydownEnabled }) => {
         </div>
       ) : (
         <div
-          className={`w-96 h-16 bg-gray-500 text-3xl text-secondary-content px-4 flex items-center justify-end rounded-xl overflow-clip shadow-inner shadow-neutral`}
+          className={`w-96 h-16 bg-gray-500 text-3xl text-secondary-content px-4 flex items-center justify-end rounded-xl overflow-clip shadow-inner shadow-neutral font-barlow-semi-condensed font-semibold`}
         >
           {input || "0"}
         </div>
