@@ -7,8 +7,8 @@ const CalcButtons = ({handleClick,clear,calculate}) => {
 	const btn_styles = `grid place-items-center bg-slate-700 text-3xl btn-primary rounded-full aspect-square w-20`;
 	return (
 		<div className={` pt-10 lg:p-0 grid grid-cols-4 gap-4`}>
-			<button className={`${btn_styles} bg-blue-500`} onClick={clear}>C</button>
-			<button className={`${btn_styles} bg-red-500`} onClick={()=>handleClick('BackSpace')}><FaBackspace /></button>
+			<button className={`bg-blue-500 ${btn_styles} `} onClick={clear}>C</button>
+			<button className={`bg-red-500 ${btn_styles} `} onClick={()=>handleClick('BackSpace')}><FaBackspace /></button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('/')}>/</button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('*')}><CgClose /></button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('9')}>9</button>
