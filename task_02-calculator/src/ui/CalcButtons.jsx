@@ -5,11 +5,11 @@ import {FaBackspace, FaTimes} from "react-icons/fa";
 import {FaDivide, FaEquals, FaMinus, FaPercent, FaPlus} from "react-icons/fa6";
 
 const CalcButtons = ({handleClick,clear,calculate}) => {
-	const btn_styles = `grid place-items-center bg-slate-700 text-3xl btn-primary rounded-full aspect-square w-20`;
+	const btn_styles = `grid place-items-center bg-slate-700 text-3xl btn-primary rounded-full aspect-square w-20 font-semibold`;
 	return (
 		<div className={` pt-10 lg:p-0 grid grid-cols-4 gap-4`}>
-			<button className={`bg-blue-500 ${btn_styles} `} onClick={clear}>AC</button>
-			<button className={`bg-red-500 ${btn_styles} `} onClick={()=>handleClick('BackSpace')}><FaBackspace /></button>
+			<button className={`bg-blue-500 grid place-items-center text-3xl btn-primary rounded-full aspect-square w-20 font-semibold `} onClick={clear}>AC</button>
+			<button className={`bg-red-500 grid place-items-center text-3xl btn-primary rounded-full aspect-square w-20 font-semibold `} onClick={()=>handleClick('BackSpace')}><FaBackspace /></button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('%')}><FaPercent /></button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('/')}><FaDivide/></button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('9')}>9</button>
@@ -27,7 +27,7 @@ const CalcButtons = ({handleClick,clear,calculate}) => {
 			<button className={`${btn_styles}`} onClick={()=>handleClick('00')}>00</button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('0')}>0</button>
 			<button className={`${btn_styles}`} onClick={()=>handleClick('.')}>.</button>
-			<button className={`bg-orange-400 text-black ${btn_styles} `} onClick={calculate}><FaEquals /></button>
+			<button className={`bg-orange-400 text-black grid place-items-center text-3xl btn-primary rounded-full aspect-square w-20 font-semibold `} onClick={calculate}><FaEquals /></button>
 		</div>
 	)
 }

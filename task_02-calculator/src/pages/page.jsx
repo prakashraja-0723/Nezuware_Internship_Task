@@ -1,13 +1,9 @@
 import React, { useState } from "react";
-import { FaGithub, FaRegClock } from "react-icons/fa6";
-import { IoCloseOutline } from "react-icons/io5";
 import CalcFrame from "../ui/CalcFrame.jsx";
 import CalcDisplay from "../ui/CalcDisplay.jsx";
 import CalcButtons from "../ui/CalcButtons.jsx";
-import CalcTitle from "../ui/CalcTitle.jsx";
 import CalcHistory from "../components/CalcHistory.jsx";
 import UseCalculator from "../hooks/UseCalculator.jsx";
-import { getKeyValue } from "eslint-plugin-react/lib/util/ast.js";
 import ToastMsg from "../ui/ToastMsg.jsx";
 
 const Calculator = () => {
