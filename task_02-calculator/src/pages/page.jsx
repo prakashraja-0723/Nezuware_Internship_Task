@@ -21,6 +21,7 @@ const Calculator = () => {
     setToastMsg,
     isKeydownEnabled,
     toggleKeyDown,
+    calc,history
   } = UseCalculator();
   return (
     <>
@@ -37,6 +38,9 @@ const Calculator = () => {
             input={input}
             handleKeyDown={handleKeyDown}
             isKeydownEnabled={isKeydownEnabled}
+            calc={calc}
+            history={history}
+            clear={clear}
           />
           <CalcButtons
             clear={clear}

@@ -8,10 +8,9 @@ const CalcHistoryBtn = () => {
 			<div className="drawer-content">
 				<label
 					htmlFor="my-drawer"
-					className="btn btn-primary drawer-button rounded-md font-barlow tracking-wider"
+					className="drawer-button cursor-pointer font-barlow text-2xl"
 				>
 					<FaRegClock/>
-					&nbsp;History
 				</label>
 			</div>
 		</>

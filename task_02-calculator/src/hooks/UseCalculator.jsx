@@ -56,7 +56,14 @@ const UseCalculator = () => {
   };
 
   const handleClick = (value) => {
+      if (input === "0" || input === "ERROR"){
+        setInput("");
+      }
+    if (value === "BackSpace"){
+        setInput(input.slice(0, -1));
+    }else{
     setInput(input + value);
+    }
   };
 
   const clear = () => {
@@ -65,7 +72,7 @@ const UseCalculator = () => {
 
   const calculate = () => {
     try {
-      result = eval(input).toString();
+      result = parseFloat(eval(input).toFixed(2)).toString();
       setInput(result);
       dispatch(addToHistory({ input: input, result }));
     } catch (error) {

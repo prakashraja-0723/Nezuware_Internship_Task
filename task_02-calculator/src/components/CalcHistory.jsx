@@ -9,7 +9,7 @@ const CalcHistory = () => {
   const {input,clear} = useCalculator()
   return (
     <>
-      <div className="drawer">
+      <div className="drawer lg:hidden">
         <CalcHistoryBtn />
         <CalcHistorySideBar input={input} clear={clear}/>
       </div>

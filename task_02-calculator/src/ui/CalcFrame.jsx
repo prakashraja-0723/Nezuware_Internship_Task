@@ -5,13 +5,13 @@ import {FaGithub} from "react-icons/fa6";
 const CalcFrame = ({children}) => {
 	return (
 		<>
-			<div className={`lg:w-fit lg:h-fit scale-50 md:scale-100`}>
+			<div className={`lg:w-fit lg:h-fit scale-50 md:scale-100 `}>
 				<CalcTitle />
 				<div
-					className={`bg-primary w-full h-fit rounded-3xl flex items-center justify-center shadow-inner shadow-secondary p-8`}
+					className={`bg-slate-800 w-full h-fit rounded-3xl flex items-center justify-center p-8` }
 				>
 					<div
-						className={`bg-secondary w-full h-fit rounded-xl px-8 py-8  shadow-inner shadow-secondary-content`}
+						className={`bg-slate-900 w-full h-fit rounded-xl px-8 py-8 lg:flex lg:gap-16 `}
 					>{children}</div>
 				</div>
 				{/*  GitHub Link */}
