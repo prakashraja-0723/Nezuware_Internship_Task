@@ -1,6 +1,4 @@
 import React from 'react'
-import {MdOutlineArrowBack} from "react-icons/md";
-import {CgClose} from "react-icons/cg";
 import {FaBackspace, FaTimes} from "react-icons/fa";
 import {FaDivide, FaEquals, FaMinus, FaPercent, FaPlus} from "react-icons/fa6";
 
