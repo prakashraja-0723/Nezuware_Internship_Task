@@ -25,6 +25,10 @@ A feature-rich to-do application built with Vite and React, leveraging localStor
 
 - **Responsive Design**: Works on both desktop and mobile devices.
 
+## Live Site
+
+Check out the live version of the app here: [Live To-Do App](https://your-live-site-url.com)
+
 ## Technologies Used
 
 - **HTML5**
@@ -60,7 +64,7 @@ A feature-rich to-do application built with Vite and React, leveraging localStor
    npm run dev
    ```
 
-   The app will be available at `http://localhost:3000`.
+   The app will be available at `http://localhost:5173/`.
 
 ## Usage
 
@@ -77,6 +81,4 @@ A feature-rich to-do application built with Vite and React, leveraging localStor
 - Allow task editing functionality.
 - Synchronize tasks across devices using cloud storage.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
