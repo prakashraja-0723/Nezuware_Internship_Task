@@ -18,7 +18,7 @@ const CalcDisplay = ({ input, handleKeyDown,clear }) => {
     <>
       <div className={`flex flex-col`}>
         <div
-          className={`w-96 h-16 lg:h-[4.5rem] bg-slate-600 text-3xl text-wrap flex items-center justify-end rounded-xl lg:rounded-bl-none lg:rounded-br-none overflow-clip px-4 text-white font-medium`}
+          className={`w-full lg:w-96 h-16 md:h-[4.5rem] bg-slate-600 text-3xl text-wrap flex items-center justify-end rounded-xl lg:rounded-bl-none lg:rounded-br-none overflow-clip px-4 text-white font-medium`}
           onKeyDown={(e) => {
             handleKeyDown(e);
           }}

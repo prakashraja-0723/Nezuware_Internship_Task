@@ -39,7 +39,7 @@ const CalcHistorySideBar = ({ input, clear }) => {
               <RiDeleteBin6Fill />
             </button>
           )}
-          <CalcHistory_ui styles={"h-dvh"}/>
+          <CalcHistory_ui styles={"h-screen"}/>
         </div>
       </div>
     </>

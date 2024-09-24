@@ -4,7 +4,7 @@ const CalcTitle = () => {
   return (
     <>
       <h1
-        className={`text-3xl font-bold text-neutral-content text-center uppercase tracking-wider bg-blue-500 px-6 py-4 rounded-xl mb-8`}
+        className={`w-fit md:w-full mx-auto text-xl md:text-3xl font-bold text-neutral-content text-center uppercase tracking-wider bg-blue-500 py-3 px-4 lg:px-6 lg:py-4 rounded lg:rounded-xl mb-8`}
       >
         Simple Calculator
       </h1>
