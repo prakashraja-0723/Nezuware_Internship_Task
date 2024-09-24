@@ -54,4 +54,4 @@ The app will be available at `http://localhost:3000/`.
 
 ## Live Site
 
-Check out the live version of the app here: [Live BootiQ](https://nezuware-internship-task1-bootiq-duwxrba9o.vercel.app/)
+Check out the live version of the app here: [Live BootiQ](https://nezuware-internship-task1-bootiq.vercel.app/)
