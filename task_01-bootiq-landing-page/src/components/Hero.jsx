@@ -40,7 +40,7 @@ const Hero = () => {
               }
             >
               <HighlightText1>BootiQ</HighlightText1>offers you the latest in
-              fashion at prices you'll love. From everyday essentials to
+              fashion at prices you will love. From everyday essentials to
               statement pieces, shop with us and stay ahead of the trends.
             </p>
             <BtnNeutral

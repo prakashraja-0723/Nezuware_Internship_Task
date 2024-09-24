@@ -36,7 +36,6 @@ const FlashSale = () => {
           <div
             className={`lg:w-9/12 w-full h-auto flex items-start justify-center flex-col relative md:py-8 lg:pl-8`}
           >
-            
             <h1
               className={`text-xl md:text-5xl font-barlow-condensed tracking-wide uppercase font-semibold mb-1`}
             >
@@ -45,13 +44,11 @@ const FlashSale = () => {
             <p
               className={`font-medium font-barlow-semi-condensed text-xl mb-4`}
             >
-              <HighlightText2>Hurry!</HighlightText2>These deals won't last long. Shop our exclusive flash sale items
-              before they're gone.
+              <HighlightText2>Hurry!</HighlightText2>These deals will not last
+              long. Shop our exclusive flash sale items before they are gone.
             </p>
-            
-            <BtnNeutral url={'/'}>
-              Shop New Arrivals
-            </BtnNeutral>
+
+            <BtnNeutral url={'/'}>Shop New Arrivals</BtnNeutral>
           </div>
         </div>
       </section>
