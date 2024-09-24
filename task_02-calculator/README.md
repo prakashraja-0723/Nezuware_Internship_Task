@@ -49,6 +49,8 @@ A simple, visually appealing calculator built using modern front-end technologie
    ```
 
 
+The app will be available at `http://localhost:5173/`.
+
 ## Usage
 
 - Use the numeric buttons to enter numbers.
