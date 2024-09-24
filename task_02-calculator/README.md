@@ -13,6 +13,10 @@ A simple, visually appealing calculator built using modern front-end technologie
 - **Responsive Design**: Adaptable to various screen sizes.
 - **Delete History**: Clear all history with a single button click.
 
+## Live Site
+
+Check out the live version of the app here: [Live To-Do App](https://nezuware-internship-task2calculator.vercel.app/)
+
 ## Technologies Used
 
 - **HTML5**
