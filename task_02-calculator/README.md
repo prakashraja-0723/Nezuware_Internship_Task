@@ -15,7 +15,7 @@ A simple, visually appealing calculator built using modern front-end technologie
 
 ## Live Site
 
-Check out the live version of the app here: [Live To-Do App](https://nezuware-internship-task2calculator.vercel.app/)
+Check out the live version of the app here: [Live Calculator](https://nezuware-internship-task2calculator.vercel.app/)
 
 ## Technologies Used
 
