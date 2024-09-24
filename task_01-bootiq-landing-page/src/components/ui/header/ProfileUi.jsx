@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import profile from '@/assets/images/profile.webp';
 
 const ProfileUi = () => {
   return (
@@ -12,8 +13,8 @@ const ProfileUi = () => {
         >
           <div className="w-10 rounded-full">
             <Image
-              alt="Tailwind CSS Navbar component"
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              alt="Profile"
+              src={profile}
             />
           </div>
         </div>
