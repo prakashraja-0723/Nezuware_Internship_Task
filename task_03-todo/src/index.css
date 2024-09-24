@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /*  themes  */
+    --theme_1: #788cde;
+    --theme_2: #bc7abc;
+    --theme_3: #e46c8c;
+    --theme_4: #e46b67;
+    --theme_5: #4aa079;
+    --theme_6: #479e98;
+    --theme_7: #8795a0;
+    --theme_8: #a0cbf1;
+    --theme_9: #d6bde7;
+    --theme_10: #f5b6c2;
+    --theme_11: #9ad2ba;
+    --theme_12: #8bd3ce;
+    --theme_13: #bac8d4;
+
+    /*  dark */
+    --dark-100: #3b3b3b;
+    --dark-200: #292929;
+    --dark-300: #222222;
+    --dark-400: #1c1c1c;
+
+    /*  light  */
+    --clr-1: #e0e0e0;
+
+    /*  hover  */
+    --hover: #333333;
+
+    /*  height*/
+    --h-fit: calc(100dvh - 2.5rem);
+    --task-h: calc(var(--h-fit) - 7.25rem);
+    --task-h-lg: calc(var(--h-fit) - 23rem);
+
+    /*    width*/
+    --fit: calc(100dvw - 3.5rem);
+    --md-fit: calc(100dvw - 4rem);
+    --lg-fit: calc(100dvw - 20rem);
+}
+
+html {
+    font-family: "Barlow", system-ui;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+.active {
+    background-color: var(--dark-100)
+}
