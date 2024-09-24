@@ -27,7 +27,7 @@ A feature-rich to-do application built with Vite and React, leveraging localStor
 
 ## Live Site
 
-Check out the live version of the app here: [Live To-Do App](https://nezuware-internship-task.vercel.app/)
+Check out the live version of the app here: [Live To-Do App](https://nezuware-internship-task3-todo.vercel.app/)
 
 ## Technologies Used
 
