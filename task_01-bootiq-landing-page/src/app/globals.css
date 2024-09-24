@@ -1,0 +1,21 @@
+@import "../fonts/font.css";
+@import "../animation/animation.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Barlow', sans-serif;
+}
+
+.scrollBar {
+  scrollbar-width: none;
+}
+
+/*media min-screen 1980px*/
+@media (min-width: 1981px) {
+  #above_2xl{
+    top: 10%;
+  }
+}
